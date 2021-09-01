@@ -21,3 +21,11 @@
 .duvida-link {
   color: #000;
 }
+
+.breadcrumb-other-pages{
+  color: #d63384 !important;
+}
+
+.image-about-us {
+  background-image: url('../images/outras/sobre.jpg');
+}
