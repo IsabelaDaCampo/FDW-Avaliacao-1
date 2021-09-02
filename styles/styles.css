@@ -1,3 +1,7 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 .back-to-top{
   color: #d63384 !important;
 }
@@ -28,4 +32,13 @@
 
 .image-about-us {
   background-image: url('../images/outras/sobre.jpg');
+}
+
+.image-contatos {
+  background-image: url('../images/outras/contatos.png');
+}
+
+.text-contatos {
+  color: gold;
+  font-weight: bold;
 }
