@@ -42,3 +42,17 @@ body {
   color: gold;
   font-weight: bold;
 }
+
+.card-text-blockquote{
+  font-size: 1rem;
+  color: #56127a;
+  font-weight: bold;
+}
+
+.blockquote-footer{
+  color: #d63384;
+}
+
+.image-clientes{
+  background-image: url('../images/outras/rating.png');
+}
