@@ -56,3 +56,30 @@ body {
 .image-clientes{
   background-image: url('../images/outras/rating.png');
 }
+
+.image-services{
+  background-image: url('../images/outras/comopintarparedes.jpeg');
+}
+
+.text-services{
+  color: #000;
+}
+
+.color-modal-title{
+  color: #56127a;
+  font-weight: bold;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
