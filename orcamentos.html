@@ -61,7 +61,113 @@
     </header>
     
     <main class="container">
-      Orçamentos
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="breadcrumb-other-pages" href="./index.html">Início</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Orçamentos</li>
+        </ol>
+      </nav>
+
+      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white image-orcamentos">
+        <h1 class="mb-3 h2 text-services">Orçamentos</h1> 
+        <p class="lead text-services">A House Paint conta com uma equipe especializada para realizar o orçamento de sua obra, utilize esta ferramenta para solicitar um orçamento e receber uma visita em sua casa para um levantamento mais preciso e detalhado de suas necessidades.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Preencha abaixo para solicitar seu orçamento</h5>
+          <form class="row g-3">
+            <div class="col-12">
+              <label for="inputName" class="form-label">Nome completo</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nome completo">
+            </div>
+            <div class="col-md-6">
+              <label for="inputFone" class="form-label">Telefone</label>
+              <input type="text" class="form-control" id="inputFone" placeholder="(xx)xxxxx-xxxx">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEnderecoRua" class="form-label">Rua e Número</label>
+              <input type="text" class="form-control" id="inputEnderecoRua" placeholder="Rua e número">
+            </div>
+            <div class="col-md-6">
+              <label for="inputBairro" class="form-label">Bairro</label>
+              <input type="text" class="form-control" id="inputBairro" placeholder="Bairro">
+            </div>
+            <div class="col-12">
+              <label for="inputCidade" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+            </div>
+
+            <div class="col-md-3">
+              <p>Marque os serviços desejados</p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckAcabamentos">
+                <label class="form-check-label" for="flexCheckAcabamentos">
+                  Acabamento
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckGesso">
+                <label class="form-check-label" for="flexCheckGesso">
+                  Gesso
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckGrades">
+                <label class="form-check-label" for="flexCheckGrades">
+                  Pintura de grades e/ou aberturas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckPinturaInterna">
+                <label class="form-check-label" for="flexCheckPinturaInterna">
+                  Pintura Interna
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckPinturaExterma">
+                <label class="form-check-label" for="flexCheckPinturaExterma">
+                  Pintura Externa
+                </label>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <p>Tipo de residência</p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Nova</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Usada</label>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="inputState" class="form-label">Horário desejado para visita da equipe para orçamento</label>
+              <select id="inputState" class="form-select">
+                <option selected>Início da manhã</option>
+                <option>Meio da manhã</option>
+                <option>Meio dia</option>
+                <option>Início da tarde</option>
+                <option>Meia tarde</option>
+                <option>Final da tarde</option>
+              </select>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
 
       <hr class="featurette-divider">
       <footer class="container">
